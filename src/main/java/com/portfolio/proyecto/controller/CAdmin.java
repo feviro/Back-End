@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("admin")
-@CrossOrigin(origins = "https://portfoliofvr.app/")
+@CrossOrigin(origins = "https://portfoliofvr.web.app/")
 public class CAdmin {
     @Autowired
     SAdmin admin;
