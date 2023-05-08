@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("persona")
-@CrossOrigin(origins = "https://portfoliofvr.web.app/")
+@CrossOrigin(origins = "https://portfolio-fvr.web.app/")
 public class CPersona {
     @Autowired
     SPersona persoServicio;
